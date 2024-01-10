@@ -8,7 +8,7 @@ const options = {
             description: 'UMC Study API with express, API 설명'
         },
         host: 'localhost:3000',
-        basepath: '../'
+        basepath: './'
     },
     apis: ['../routes/*.js', './swagger/*']
 };
