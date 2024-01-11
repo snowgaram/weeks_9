@@ -25,18 +25,11 @@ externalDocs:
 servers:
   - url: http://localhost:3000
 tags: 
-  - name: pet
-    description: Everything about your Pets
+  - name: User
+    description: Operations about user
     externalDocs:
       description: Find out more
       url: http://swagger.io
-  - name: store
-    description: Access to Petstore orders
-    externalDocs:
-      description: Find out more about our store
-      url: http://swagger.io
-  - name: user
-    description: Operations about user
 paths:
   /user/signin:
     post:

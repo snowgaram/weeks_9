@@ -10,6 +10,18 @@ const options = {
         host: 'localhost:3000',
         basepath: './'
     },
+
+    security_definition: {
+        jwt: {
+            type: 'apikey',
+            name: 'Authorization',
+            in: 'header'
+        }
+    },
+    security: [
+        { jwt: [] }
+    ],
+
     apis: ['../routes/*.js', './swagger/*']
 };
 
